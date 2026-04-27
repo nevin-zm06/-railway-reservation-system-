@@ -4,7 +4,7 @@ import string
 # ─────────────────────────────────────────
 #  Configuration
 # ─────────────────────────────────────────
-TOTAL_SEATS = 50
+TOTAL_SEATS = 60
 
 # seats: {seat_number: booking_id or None}
 seats = {i: None for i in range(1, TOTAL_SEATS + 1)}
